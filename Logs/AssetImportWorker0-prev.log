@@ -1,0 +1,529 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.39f1 (15ea7ed0b100) revision 1436286'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 3891 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\6000.0.39f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/afifi
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49875
+-job-worker-count
+1
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/afifi
+D:/afifi
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13264]  Target information:
+
+Player connection [13264] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13264] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 22.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.39f1 (15ea7ed0b100)
+[Subsystems] Discovering subsystems at path D:/6000.0.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/afifi/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX330 (ID=0x1d16)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'D:/6000.0.39f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.0.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.0.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/6000.0.39f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023950 seconds.
+- Loaded All Assemblies, in  4.332 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.362 seconds
+Domain Reload Profiling: 7695ms
+	BeginReloadAssembly (1887ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (435ms)
+	RebuildNativeTypeToScriptingClass (96ms)
+	initialDomainReloadingComplete (461ms)
+	LoadAllAssembliesAndSetupDomain (1449ms)
+		LoadAssemblies (1860ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1425ms)
+			TypeCache.Refresh (1415ms)
+				TypeCache.ScanAssembly (1305ms)
+			BuildScriptInfoCaches (3ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (3366ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3158ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (161ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (726ms)
+			ProcessInitializeOnLoadAttributes (1858ms)
+			ProcessInitializeOnLoadMethodAttributes (388ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.015 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.946 seconds
+Domain Reload Profiling: 8966ms
+	BeginReloadAssembly (1198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (179ms)
+	RebuildCommonClasses (365ms)
+	RebuildNativeTypeToScriptingClass (141ms)
+	initialDomainReloadingComplete (296ms)
+	LoadAllAssembliesAndSetupDomain (2011ms)
+		LoadAssemblies (1920ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (815ms)
+			TypeCache.Refresh (701ms)
+				TypeCache.ScanAssembly (634ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (4956ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3990ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (606ms)
+			ProcessInitializeOnLoadAttributes (3095ms)
+			ProcessInitializeOnLoadMethodAttributes (218ms)
+			AfterProcessingInitializeOnLoad (34ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (70ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 5.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1618 unused Assets / (288.5 KB). Loaded Objects now: 2129.
+Memory consumption went from 69.9 MB to 69.6 MB.
+Total: 84.534900 ms (FindLiveObjects: 2.366800 ms CreateObjectMapping: 0.864400 ms MarkObjects: 76.308800 ms  DeleteObjects: 4.973000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 110423.908103 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/FireExtinguisher.prefab
+  artifactKey: Guid(e98123b05fcaf7048a031f706b920a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/FireExtinguisher.prefab using Guid(e98123b05fcaf7048a031f706b920a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a324f19ef01acf6f0209663c982318a') in 5.6369554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Meeting Table.prefab
+  artifactKey: Guid(6f31614a2ba67d249baa4b3fb51369c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Meeting Table.prefab using Guid(6f31614a2ba67d249baa4b3fb51369c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f171add979c8bdcefe7aaf33a153ef95') in 0.1015317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Tree_3.prefab
+  artifactKey: Guid(968af719e82784949bdac8e0ad5bfca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Tree_3.prefab using Guid(968af719e82784949bdac8e0ad5bfca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46640a442e1c38ac071b1f4d747663d1') in 0.1353652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/OfficeRoom.prefab
+  artifactKey: Guid(3851e4b5b857f7d4da5097aa5ceed74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/OfficeRoom.prefab using Guid(3851e4b5b857f7d4da5097aa5ceed74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef8588dba031bce94c64ed01083b4212') in 3.7567647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Rock2.prefab
+  artifactKey: Guid(557a36aa7fbc6594e9851497f1c89c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Rock2.prefab using Guid(557a36aa7fbc6594e9851497f1c89c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a99a36905182883dac294769fdbfdaf') in 0.048236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/FirstPersion AIO Pack/FirstPersonAIO/FirstPerson-AIO.prefab
+  artifactKey: Guid(2e62f5703e5f8d2488a5e1bc8433be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/FirstPersonAIO/FirstPerson-AIO.prefab using Guid(2e62f5703e5f8d2488a5e1bc8433be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '296aa4cbdd9afa5c40e542225f76b216') in 0.254322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/SoadMachine.prefab
+  artifactKey: Guid(eeb959a765d24424bafa09fbee9bdc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/SoadMachine.prefab using Guid(eeb959a765d24424bafa09fbee9bdc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5926512bdcc0870f92c330e7c241ffe') in 0.1103293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/PottedPlant.prefab
+  artifactKey: Guid(e32bcac6fec4bc0458d67bae457e71f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/PottedPlant.prefab using Guid(e32bcac6fec4bc0458d67bae457e71f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca2ab961a0bbbcc253b34e3fe13367a2') in 0.1317669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Models/museum_model.prefab
+  artifactKey: Guid(9ed061198b821f04381c1bc2fb439fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/museum_model.prefab using Guid(9ed061198b821f04381c1bc2fb439fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95cf99b4671482458d86823f51e306e9') in 1.4018132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 236
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/VendingMachine.prefab
+  artifactKey: Guid(c95e0289b2704c6428ef68c5380cfd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/VendingMachine.prefab using Guid(c95e0289b2704c6428ef68c5380cfd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a35c65b291ed3ac8944697f6e8c9374') in 0.1721586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Models/ArtCreator.prefab
+  artifactKey: Guid(be695357b812bb24bb6e9743bbd0c199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ArtCreator.prefab using Guid(be695357b812bb24bb6e9743bbd0c199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b175f72c69e46c62956219e7a8097cc5') in 2.3115985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 241
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Packages/com.unity.ext.nunit/net40
+  artifactKey: Guid(af19581c6078849139e0671f575e4b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/net40 using Guid(af19581c6078849139e0671f575e4b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b75a81a908913e09a5cbf25d62a19302') in 0.0128327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/RoundTable.prefab
+  artifactKey: Guid(8e32ae9339344404da059b851f53499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/RoundTable.prefab using Guid(8e32ae9339344404da059b851f53499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c23c055be078cee7e8b693e1ec13436') in 0.2479448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Packages/com.unity.ext.nunit/net40/unity-custom
+  artifactKey: Guid(c0673f99c7a5d42e081a6f88c5a37862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/net40/unity-custom using Guid(c0673f99c7a5d42e081a6f88c5a37862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e9bd32814dd327fbd57cc2f1f288371') in 0.0076956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/MiniVan.prefab
+  artifactKey: Guid(baf623ab442775545b87846b2e589bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/MiniVan.prefab using Guid(baf623ab442775545b87846b2e589bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd70da76bfa5b629c81a894b64223bc71') in 0.2441751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Chair.prefab
+  artifactKey: Guid(190cca390dcce1a428c896216a9fb446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Chair.prefab using Guid(190cca390dcce1a428c896216a9fb446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '982c6f481f9d94d76beaacece4fc6e92') in 0.1847563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Computer.prefab
+  artifactKey: Guid(a750d2665ebb3d94798fd3a4bb394d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Computer.prefab using Guid(a750d2665ebb3d94798fd3a4bb394d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a77a1424e971790a258a71dc4d4eafd9') in 0.2306438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001530 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Desk.prefab
+  artifactKey: Guid(583f0e949db074947a69915c38991b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Desk.prefab using Guid(583f0e949db074947a69915c38991b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee10131910de218ffd563a8de6e81c91') in 0.2413683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(98f272739fddddc4792987c741fb20c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/CeilingLight.prefab using Guid(98f272739fddddc4792987c741fb20c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45a6ed4bdd6c7e10f96e4ed18072ff9b') in 0.2006823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b9bf29958b77440633d3a05e83f58d6') in 0.021947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Doors.prefab
+  artifactKey: Guid(5043dd1c54246664babcc9559b8a8604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Doors.prefab using Guid(5043dd1c54246664babcc9559b8a8604) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e03a40088306d63c8a12147fc5ea2e1e') in 0.2493736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Models/Canvas.prefab
+  artifactKey: Guid(30ef37181da4bcc42ba1335de6cfe7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Canvas.prefab using Guid(30ef37181da4bcc42ba1335de6cfe7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76ecd3defcd4e525492b5a26c39423a4') in 0.6638056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004961 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Tree_1.prefab
+  artifactKey: Guid(5160f0d6447a35d4894dd91c07411d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Tree_1.prefab using Guid(5160f0d6447a35d4894dd91c07411d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7fbc36796f0ecbe45cbf63c719e022d') in 0.2072739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001243 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cede99d5a084075874d437f40ac0902e') in 0.0076756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/StreetLight.prefab
+  artifactKey: Guid(6b01e0e0f56422541b41840e943c4c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/StreetLight.prefab using Guid(6b01e0e0f56422541b41840e943c4c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff1f3bf2caac7783e74be2ec5c484c12') in 0.1907843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Rock1.prefab
+  artifactKey: Guid(282d3e12c9c429b44a4d4971b70d04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Rock1.prefab using Guid(282d3e12c9c429b44a4d4971b70d04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b49ffa637b4f34052be00ad9fd20828') in 0.1931025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Tree_2.prefab
+  artifactKey: Guid(95da3c08154f05447b2280ef8d8132c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Tree_2.prefab using Guid(95da3c08154f05447b2280ef8d8132c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeeffa7129a7d7880d641f7581ae7fa0') in 0.1840304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/ParkBench.prefab
+  artifactKey: Guid(9ff6d95a272e2d4499558631f2197578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/ParkBench.prefab using Guid(9ff6d95a272e2d4499558631f2197578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcbbd7ef845a8df83bb4e776bbe96de6') in 0.1700479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.458911 seconds.
+  path: Assets/Models/AngleRoomAmbient_Occlusion.png
+  artifactKey: Guid(a4780a8ff5c4d4f7393526431ee2de72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AngleRoomAmbient_Occlusion.png using Guid(a4780a8ff5c4d4f7393526431ee2de72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a84503c73cc6f6c0bc318a6c8f0b7e9') in 0.1646402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Models/OctagonRoomAmbient_Occlusion.png
+  artifactKey: Guid(b4173c514e6e1485fb2e003fd12370ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OctagonRoomAmbient_Occlusion.png using Guid(b4173c514e6e1485fb2e003fd12370ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '890b100661e34125f809f1d82bb6d84e') in 0.1364903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Models/RectangleRoomAmbient_Occlusion.png
+  artifactKey: Guid(c73e9aada76aa4255a4ab1da28fb806e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RectangleRoomAmbient_Occlusion.png using Guid(c73e9aada76aa4255a4ab1da28fb806e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3f0ba0eb979aac95615befdc9956008') in 0.115232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Models/WalkwayAmbient_Occlusion.png
+  artifactKey: Guid(c47003747120e4743aeeaea3f44c08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WalkwayAmbient_Occlusion.png using Guid(c47003747120e4743aeeaea3f44c08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f98ddfdbcfe0f8a0d64ba2969a5b52ee') in 0.097338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Models/WalkwaySurface_Color.png
+  artifactKey: Guid(10135d1fe0d2240938a3567eaa69296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WalkwaySurface_Color.png using Guid(10135d1fe0d2240938a3567eaa69296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf7b8354f3fd7af6bb30c42ee12c7949') in 0.0929112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Models/AngleRoomSurface_Color.png
+  artifactKey: Guid(201c01d48918e451f974b16c83fe4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AngleRoomSurface_Color.png using Guid(201c01d48918e451f974b16c83fe4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98aae963191c6e3930bc4dbca46da558') in 0.0934614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Models/museum.fbx
+  artifactKey: Guid(8c08292520848469094a81aa5ffebfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/museum.fbx using Guid(8c08292520848469094a81aa5ffebfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1187e4df359cc11af761e18c2fdeceee') in 3.4735785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 159
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Materials/da3.mat
+  artifactKey: Guid(2380fdb77f76b8c47bab3a2c5cf6dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/da3.mat using Guid(2380fdb77f76b8c47bab3a2c5cf6dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f292cd876fd1e23d2413ddb8b2a15fd') in 0.0603177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Materials/cube.mat
+  artifactKey: Guid(f52ef92628ca936428aabfd5817f48d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/cube.mat using Guid(f52ef92628ca936428aabfd5817f48d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1320e4c31b5328db42a35742277ff035') in 0.0673145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/RectangleRoomSurface_Color.png
+  artifactKey: Guid(4b101de0179c24acc859abad65611557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RectangleRoomSurface_Color.png using Guid(4b101de0179c24acc859abad65611557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a50c2f51e1e82dabe13e04911a1096f') in 0.101205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001348 seconds.
+  path: Assets/Materials/mixed_reality.mat
+  artifactKey: Guid(9db26684a5383e64a89eb098d8fa7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mixed_reality.mat using Guid(9db26684a5383e64a89eb098d8fa7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca65b67edac678f6e410ea16d31808ad') in 0.1118504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Models/RoundRoomAmbient_Occlusion.png
+  artifactKey: Guid(97a4d356c296a419ebb1288b713f5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RoundRoomAmbient_Occlusion.png using Guid(97a4d356c296a419ebb1288b713f5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16c86b14997bb2e094c0f61371190bc7') in 0.0986792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Models/RoundRoomSurface_Color.png
+  artifactKey: Guid(a4bb3374aac2a43d19b07aefcb51be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RoundRoomSurface_Color.png using Guid(a4bb3374aac2a43d19b07aefcb51be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5633abd2fa36c1a7345a5d29f3a42455') in 0.1031803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Models/OctagonRoomSurface_Color.png
+  artifactKey: Guid(b5b8378a62cce401b91b34f96ef019ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OctagonRoomSurface_Color.png using Guid(b5b8378a62cce401b91b34f96ef019ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c78d73f2bc463eed26bf99e93a7d0fea') in 0.1187489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.074705 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34943fe87a10d2e70b2300573570d890') in 0.0106638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

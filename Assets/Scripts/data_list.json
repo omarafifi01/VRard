@@ -1,0 +1,33 @@
+{"Objects":
+[
+    {
+        "Title": "THE MONALISA",
+        "Subtitle": "1600s",
+        "Description": "The Mona Lisa is a famous portrait by Leonardo da Vinci, known for its enigmatic smile and detailed realism. Painted in the early 16th century, it is one of the most recognized and studied artworks in history.",
+        "Placement": 1,
+        "url": "mona"
+    },
+    {
+        "Title": "THE GIZA PYRAMIDS",
+        "Subtitle": "4500B.C",
+        "Description": "The Great Pyramids of Giza in Egypt are ancient tombs built for Pharaohs Khufu, Khafre, and Menkaure over 4,500 years ago. They are one of the Seven Wonders of the Ancient World, showcasing advanced engineering and architectural mastery..",
+        "Placement": 2,
+        "url": "giza"
+    },
+    {
+        "Title": "Mesoamerican pyramids ",
+        "Subtitle": "El Castillo, Chichen Itza",
+        "Description": "El Castillo (Temple of Kukulcán) is a step pyramid in Chichén Itzá, Mexico, built by the Maya civilization. It is famous for its precise astronomical alignment, creating a serpent-like shadow during the equinoxes.",
+        "Placement": 3,
+        "url": "D"
+    }
+    ,
+    {
+        "Title": "STARRY NIGHT",
+        "Subtitle": "VAN GOGH ",
+        "Description": "The Starry Night is a famous painting by Vincent van Gogh, depicting a swirling night sky over a quiet village. Created in 1889, it showcases his unique post-impressionist style with bold colors and dynamic brushstrokes.",
+        "Placement": 4,
+        "url": "z"
+    }
+]
+}
